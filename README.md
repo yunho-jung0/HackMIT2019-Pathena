@@ -17,6 +17,9 @@ In addition to navigation, Pathena will aggregate crime statistics in a region a
 ### Social media integration
 User submitted social media data will be aggregated in addition to crime statsitics to supplement the representation of the safety of neighborhooods where crime data may be insufficient to accurately analyze the safety.
 
+## Prototype to Finalization
+https://imgur.com/a/wbtw8ST
+
 
 
  
