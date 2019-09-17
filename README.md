@@ -1,4 +1,4 @@
-# HackMIT2019-BigKahunaBoys -> PATHENA
+# PATHENA
 # Public Safety, simplified. 
 
 Pathena is a navitation application, but instead of looking the fastest route, it looks for the safest route, while staying efficient.
