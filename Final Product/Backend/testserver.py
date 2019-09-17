@@ -11,6 +11,8 @@ import traceback
 
 import googlemaps
 
+api_key = ''
+
 @route('/map')
 def serve_map():
     return static_file('map.html', root='html')
@@ -170,7 +172,7 @@ def iterative_dijkstra(g, a, b, max_depth=3, _depth=1, r=None, h=None, allh=None
 
 def geo_coder(address):
   """A function that takes an address and returns the geocoded [lat,lng] as a list."""
-  gmaps = googlemaps.Client("AIzaSyCyj7RlD7CmPzHKZRiUSICcY6ldxIDH39A")
+  gmaps = googlemaps.Client("")
   l = gmaps.geocode(address)[0]['geometry']['location']
   return l['lng'], l['lat']
 
